@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgets"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#aa000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:ems="10"
+         	
+            android:hint="جستجو لغت" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/btn_flow_delete"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_delete"
+            android:text=""
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_en2fa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="EN2FA"
+            android:textColor="#57FF9D" />
+
+        <RadioButton
+            android:id="@+id/rb_fa2en"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FA2EN"
+            android:textColor="#57FF9D" />
+
+        <RadioButton
+            android:id="@+id/rb_fa2ar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FA2AR"
+            android:textColor="#57FF9D" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/passage_widgets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#57FF9D" />
+
+    <ImageView
+        android:id="@+id/img_starOff"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star_of" />
+
+</LinearLayout>

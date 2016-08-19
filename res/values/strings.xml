@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">دیکشنری بوشلامبو</string>
+    <string name="action_settings">تنظیمات</string>
+    
+    <string name="exit">خروج</string>
+    <string name="en2fa">انگلیسی به فارسی</string>
+    <string name="fa2en">فارسی به انگلیسی</string>
+    <string name="fa2ar">فارسی به عربی</string>
+    <string name="boshlambo_dic">Boshlambo Dictionary</string>
+    <string name="programmer">برنامه نویس</string>
+    <string name="myname">احمد محمدی منیوحی</string>
+    <string name="designer">طــــــــراح</string>
+    <string name="aaslalvan">مهندس ا.اصل علوان</string>
+    <string name="academy">سایت</string>
+    <string name="siteaddress">http://manyohi.ir</string>
+    <string name="forum">انجمن</string>
+    <string name="forumAddress">http://manyohi.ir/it</string>
+    <string name="info">درباره</string>
+    <string name="floatwindow">دیکشنری شناور</string>
+    <string name="fullScreen">صفحه کامل</string>
+    <string name="img_copy_description">Touch to copy the text</string>
+    <string name="img_speaker_description">Touch to speech the text</string>
+    <string name="img_del_description">Touch to delete the text</string>
+    <string  name="favorite">لیست مورد علاقه</string>
+    <string name="intelli_dic">دیکشنری هوشمند</string>
+    <string name="delete">حذف</string>
+    <string name="feedback">بازخورد</string>
+    
+    <string name="drawer_open">منو کشویی باز شد</string>
+    <string name="drawer_close">منو کشویی بسته شد</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >انگلیسی به فارسی</item>
+        <item >فارسی به انگلیسی</item>
+        <item >فارسی به عربی</item>
+        <item >عربی به فارسی</item>
+       
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/en2fa</item>
+        <item>@drawable/en2fa</item>
+        <item>@drawable/fa2ar</item>
+        <item>@drawable/fa2ar</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+
+</resources>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/exit"/>
+ <!-- About without title-->
+    <item android:id="@+id/info" 
+        android:title="@string/info"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="99"/>
+ <!-- Favorit -->
+    <item android:id="@+id/favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/star_on"
+		android:orderInCategory="98" 
+		android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/intelliDict" 
+        android:title="@string/intelli_dic" 
+        android:checkable="true" 
+        android:checked="true" 
+        ></item>
+    <item android:id="@+id/feedback" android:orderInCategory="97" android:title="@string/feedback"></item>
+    
+</menu>

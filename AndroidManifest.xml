@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.xzn.internetwan.boshlambo"
+    android:versionCode="26"
+    android:versionName="2.6" 
+    android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+   <!--  <uses-permission android:name="android.permission.SEND_SMS"/> -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <receiver android:name="ir.xzn.internetwan.boshlambo.receiver.AutoStart">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>         
+        </receiver>
+        
+        
+        <activity
+            android:name="ir.xzn.internetwan.boshlambo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="ir.xzn.internetwan.boshlambo.Favorit"></activity>
+        <activity android:name="ir.xzn.internetwan.boshlambo.FeedBack"></activity>       
+        <!-- <activity android:name="ir.xzn.internetwan.boshlambo.Splash"></activity> -->
+        <activity android:name="ir.xzn.internetwan.boshlambo.adapter.NavDrawerListAdapter"></activity>
+        <activity android:name="com.ahmad.drawernavigation.model.NavDrawerItem"></activity>
+        
+        
+        
+        <service android:name="ir.xzn.internetwan.boshlambo.ServiceTranslate"></service>
+        <service android:name="ir.xzn.internetwan.boshlambo.IntelliDic"></service>
+        <service android:name="ir.xzn.internetwan.boshlambo.WidgetsWindow" >
+        </service>
+        
+        
+        
+    </application>
+
+</manifest>

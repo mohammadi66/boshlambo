@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_boshDic"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        
+       android:typeface="sans"
+        android:background="#28c824"
+        android:textStyle="bold"
+        android:text="@string/en2fa"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        
+         android:background="#ffffff"
+        android:textStyle="bold"
+        android:text="@string/fa2en"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_myname"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+         android:background="#eb5660"
+        android:textStyle="bold"
+        android:text="@string/fa2ar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
