@@ -16,5 +16,5 @@ speech your words and even you can copy them to clipboard to share them with you
 
 
 ![boshlambo pic](https://s.cafebazaar.ir/1/upload/screenshot/ir.xzn.internetwan.boshlambo7.jpg)
-Format: ![Alt Text](url)
+
 
