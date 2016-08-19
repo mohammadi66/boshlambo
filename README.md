@@ -12,3 +12,9 @@ When you are reading a book or you are in the web and you found an unknown word 
 This dictionary can be floating then you can move it every where and can resize it or hidden it! 
 you can favorite your words and then see them in your favorite list. 
 speech your words and even you can copy them to clipboard to share them with your friends for watsapp, telegram, ...
+
+
+
+![boshlambo pic](https://s.cafebazaar.ir/1/upload/screenshot/ir.xzn.internetwan.boshlambo7.jpg)
+Format: ![Alt Text](url)
+
